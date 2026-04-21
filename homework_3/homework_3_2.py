@@ -26,5 +26,5 @@ for i in range(len(arr)):
     if len(arr[i]) == 0:
         print([])
     else:
-        new_arr = arr[i][-1:] + arr[i][:-1]
-        print(new_arr)
+        arr[i] = arr[i][-1:] + arr[i][:-1]
+        print(arr[i])
