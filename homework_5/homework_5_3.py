@@ -1,6 +1,6 @@
 import string
 
-user_input_string = input("Enter a string: ")
+user_input_string = input("Введіть рядок: ")
 
 string_without_punctuation = ""
 for element in user_input_string:
